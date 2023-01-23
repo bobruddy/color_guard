@@ -19,6 +19,8 @@ apk add python3
 apk add py3-pip
 apk add py3-pyzmq
 apk add py3-pandas
+apk add ipython
+apk add jupyter-nbformat
 #apk add py3-beautifulsoup4
 #apk add py3-html5lib
 
