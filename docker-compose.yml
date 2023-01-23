@@ -1,0 +1,9 @@
+version: "3"
+services:
+  sched:
+    build: .
+    volumes:
+      - type: bind
+        source: /data/htdocs/elm
+        target: /htdocs
+        read_only: false
